@@ -1,0 +1,16 @@
+/home/markus/Documents/Projects/construtores_aula/aula-construtores/obj/Debug/net5.0/aula-construtores.csproj.AssemblyReference.cache
+/home/markus/Documents/Projects/construtores_aula/aula-construtores/obj/Debug/net5.0/aula-construtores.GeneratedMSBuildEditorConfig.editorconfig
+/home/markus/Documents/Projects/construtores_aula/aula-construtores/obj/Debug/net5.0/aula-construtores.AssemblyInfoInputs.cache
+/home/markus/Documents/Projects/construtores_aula/aula-construtores/obj/Debug/net5.0/aula-construtores.AssemblyInfo.cs
+/home/markus/Documents/Projects/construtores_aula/aula-construtores/obj/Debug/net5.0/aula-construtores.csproj.CoreCompileInputs.cache
+/home/markus/Documents/Projects/construtores_aula/aula-construtores/bin/Debug/net5.0/aula-construtores
+/home/markus/Documents/Projects/construtores_aula/aula-construtores/bin/Debug/net5.0/aula-construtores.deps.json
+/home/markus/Documents/Projects/construtores_aula/aula-construtores/bin/Debug/net5.0/aula-construtores.runtimeconfig.json
+/home/markus/Documents/Projects/construtores_aula/aula-construtores/bin/Debug/net5.0/aula-construtores.runtimeconfig.dev.json
+/home/markus/Documents/Projects/construtores_aula/aula-construtores/bin/Debug/net5.0/aula-construtores.dll
+/home/markus/Documents/Projects/construtores_aula/aula-construtores/bin/Debug/net5.0/ref/aula-construtores.dll
+/home/markus/Documents/Projects/construtores_aula/aula-construtores/bin/Debug/net5.0/aula-construtores.pdb
+/home/markus/Documents/Projects/construtores_aula/aula-construtores/obj/Debug/net5.0/aula-construtores.dll
+/home/markus/Documents/Projects/construtores_aula/aula-construtores/obj/Debug/net5.0/ref/aula-construtores.dll
+/home/markus/Documents/Projects/construtores_aula/aula-construtores/obj/Debug/net5.0/aula-construtores.pdb
+/home/markus/Documents/Projects/construtores_aula/aula-construtores/obj/Debug/net5.0/aula-construtores.genruntimeconfig.cache
