@@ -4,6 +4,15 @@ namespace aula_construtores
 {
     public class Produto
     {
+
+        /* Ordem sugerida:
+        - Atributos privados;
+        - Propriedades autoimplementadas;
+        - Construtores;
+        - Propriedades customizadas;
+        - Outros métodos da classe;
+        */
+
         private string _nome;
         public double Preco { get; private set; }
         public int Quantidade { get; private set; }
