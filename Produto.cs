@@ -4,51 +4,61 @@ namespace aula_construtores
 {
     public class Produto
     {
-        public string Nome;
-        public double Preco;
-        public int Quantidade;
+        private string _nome;
+        private double _preco;
+        private int _quantidade;
+
+         public string Nome 
+        {
+            get { return _nome; }
+            set { if (value != null && value.Length > 1)
+            {
+            _nome = value;
+            } }
+        }
+
+        public double Preco 
+        {
+            get { return _preco;}
+        }
+    
+
+        public int Quantidade
+        {
+            get { return _quantidade;}
+        }
 
         public Produto()
-        {
-            
-        }
+        {}
 
         public Produto(string nome, double preco, int quantidade)
         {
-            Nome = nome;
-            Preco = preco;
-            Quantidade = quantidade;
+            _nome = nome;
+            _preco = preco;
+            _quantidade = quantidade;
         }
-
-        public Produto(string nome, double preco)
-        {
-            Nome = nome;
-            Preco = preco;
-            Quantidade = 0;
-        }
-
 
         public double ValorTotalEmEstoque() 
         {
-            return Preco * Quantidade;
+            return _preco * _quantidade;
         }
 
         public void AdicionarProdutos(int quantidade)
         {
-            Quantidade +=  quantidade;
+            _quantidade +=  quantidade;
         }
 
         public void RemoverProdutos(int quantidade)
         {
-            Quantidade -= quantidade;
+            _quantidade -= quantidade;
         }
 
         public override string ToString()
         {
-            return Nome 
+            return _nome 
             + ", $ " 
-            + Preco.ToString("F2", CultureInfo.InvariantCulture) 
-            + ", " + Quantidade 
+            + _preco.ToString("F2", CultureInfo.InvariantCulture) 
+            + ", " + _quantidade 
             + " unidades, Total: $ " 
             + ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture);
         }
